@@ -2,10 +2,9 @@
 
 ## Description
 
-[CachedUrlParser](https://nestjs-url-parser.herokuapp.com/graphql) Extract basic metadata like title, description and largest image from a url
-.
+[CachedUrlParser](https://cached-url-parser.herokuapp.com/graphql)extracts metadata from a webpage like the title, description and largest image for that webpage.
 
-## Installation
+## Installation procedure
 
 ```bash
 $ npm install
@@ -37,5 +36,4 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-- Author - [Joba Fash](https://github.com/jobafash)
-- Twitter - [@jobafash](https://twitter.com/jobafash)
+- Authored by [Joba Fash](https://twitter.com/jobafash)
