@@ -2,7 +2,7 @@
 
 ## Description
 
-[CachedUrlParser](https://cached-url-parser.herokuapp.com/graphql)extracts metadata from a webpage like the title, description and largest image for that webpage.
+[CachedUrlParser](https://cached-url-parser.herokuapp.com/graphql) extracts metadata from a webpage like the title, description and largest image for that webpage.
 
 ## Installation procedure
 
@@ -14,13 +14,13 @@ $ npm install
 
 ```bash
 # development
-$ npm run start [localhost:3000/graphql]
+$ npm run start [localhost:5000/graphql]
 
 # watch mode
-$ npm run start:dev [localhost:3000/graphql]
+$ npm run start:dev [localhost:5000/graphql]
 
 # production mode
-$ npm run start:prod [localhost:[port]/graphql]
+$ npm run start:prod [localhost:${PORT}/graphql]
 ```
 
 ## Test
