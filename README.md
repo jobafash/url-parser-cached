@@ -1,8 +1,8 @@
-  <p align="center">Nestjs Url Parser</p>
+## Cached Url Parser
 
 ## Description
 
-[NestUrlParser](https://nestjs-url-parser.herokuapp.com/graphql) Extract basic metadata like title, description and largest image from a url
+[CachedUrlParser](https://nestjs-url-parser.herokuapp.com/graphql) Extract basic metadata like title, description and largest image from a url
 .
 
 ## Installation
@@ -37,7 +37,5 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Stay in touch
-
-- Author - [Goodluck Ekene](https://github.com/ceeghee)
-- Twitter - [@goodluck_ekene](https://twitter.com/goodluck_ekene)
+- Author - [Joba Fash](https://github.com/jobafash)
+- Twitter - [@jobafash](https://twitter.com/jobafash)
