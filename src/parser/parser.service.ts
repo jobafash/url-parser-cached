@@ -5,9 +5,9 @@ import * as puppeteer from 'puppeteer';
 import * as NodeCache from 'node-cache';
 @Injectable()
 export class ParserService {
-  private readonly myCache;
+  private readonly cached;
   constructor() {
-    this.myCache = new NodeCache({ stdTTL: 500, checkperiod: 120 });
+    this.cached = new NodeCache({ stdTTL: 500, checkperiod: 120 });
   }
   async scrap(url: string) {
     try {
@@ -20,7 +20,7 @@ export class ParserService {
     } catch (err) {
       console.log(err);
       return {
-        error: [{ path: 'parseUrl', message: 'Unable to parse this url' }],
+        error: [{ path: 'parseUrl', message: 'Unable to parse url' }],
       };
     }
   }
@@ -49,11 +49,11 @@ export class ParserService {
   }
 
   private async isCached(key: string) {
-    return this.myCache.get(key);
+    return this.cached.get(key);
   }
 
   private async saveToCache(key: string, payload) {
-    return this.myCache.set(key, payload);
+    return this.cached.set(key, payload);
   }
 
   private async initPuppeteer() {

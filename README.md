@@ -2,7 +2,7 @@
 
 ## Description
 
-[CachedUrlParser](https://cached-url-parser.herokuapp.com/graphql) extracts metadata from a webpage like the title, description and largest image for that webpage.
+[CachedUrlParser](https://cached-url-parser.herokuapp.com/graphql) extracts metadata from a webpage with the title, description and largest image for that webpage.
 
 ## Installation procedure
 
